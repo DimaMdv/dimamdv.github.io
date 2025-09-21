@@ -1,2 +1,3 @@
 # dimamdv.github.io
-Personal website and portfolio
+
+- [ ] Stuff that needs to be done
