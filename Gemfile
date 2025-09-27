@@ -18,7 +18,14 @@ gem "jekyll-remote-theme" # For using other themes
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-gist'
+  gem 'jekyll-paginate'
+  gem "jekyll-asciidoc"
 end
+
+# Stuff found in the "feeling responsive" gemfile
+gem 'asciidoctor', '~> 1.5.4'
+gem 'coderay', '1.1.1'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

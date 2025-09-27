@@ -31,11 +31,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  DimaMdv
 
 # Build settings
-theme: minima # TODO: Is there need to keep theme tag?
-remote_theme: https://github.com/Phlow/feeling-responsive # using the remote theme
+theme: minima # TODO: Is there need to keep theme tag? 
+remote_theme:  https://github.com/Phlow/feeling-responsive # using the remote theme # 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-asciidoc
 
 # Exclude from processing.
 # The following items will not be processed, by default.
