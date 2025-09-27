@@ -32,11 +32,14 @@ github_username:  DimaMdv
 
 # Build settings
 theme: minima # TODO: Is there need to keep theme tag?
-remote_theme: https://github.com/Phlow/feeling-responsive # using the remote theme
+remote_theme: https://github.com/dieghernan/chulapa # using the remote theme
 plugins:
-  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-sitemap
   - jekyll-remote-theme
-
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
